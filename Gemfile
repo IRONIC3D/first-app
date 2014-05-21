@@ -20,3 +20,6 @@ end
 group :doc do
   gem 'sdoc', require: false
 end
+
+gem 'unicorn', group: :production
+gem 'thin', group: :development
